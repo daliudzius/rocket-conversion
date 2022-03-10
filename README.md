@@ -1,7 +1,7 @@
 # rocket-conversion
 For Hasura Demo - An app to display rockets specs from api and convert them to fun units.
 
-[Live Demo]()
+[Live Demo](https://rocket-conversion-demo.vercel.app/)
 
 ### Demo Details
 I wanted to demo some of the common features of Hasura and came up with overall requirements:

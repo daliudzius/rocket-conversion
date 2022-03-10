@@ -1,0 +1,49 @@
+{
+  "name": "next-auth-example",
+  "version": "0.0.0",
+  "private": true,
+  "description": "An example project for NextAuth.js",
+  "repository": "https://github.com/nextauthjs/next-auth-example.git",
+  "bugs": {
+    "url": "https://github.com/nextauthjs/next-auth/issues"
+  },
+  "homepage": "https://next-auth-example.vercel.app",
+  "main": "",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "types": "tsc --noEmit"
+  },
+  "author": "Iain Collins <me@iaincollins.com>",
+  "contributors": [
+    "Balázs Orbán <info@balazsorban.com>",
+    "Nico Domino <yo@ndo.dev>",
+    "Lluis Agusti <hi@llu.lu>"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/client": "^3.5.10",
+    "@chakra-ui/icons": "^1.1.7",
+    "@chakra-ui/react": "^1.8.6",
+    "@emotion/react": "^11.8.1",
+    "@emotion/styled": "^11.8.1",
+    "framer-motion": "^6.2.8",
+    "fs": "^0.0.1-security",
+    "graphql": "^16.3.0",
+    "graphql-ws": "^5.6.2",
+    "next": "^12.0.11-canary.4",
+    "next-auth": "latest",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "websocket": "^1.0.34"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.14",
+    "@types/react": "^17.0.39",
+    "typescript": "^4.5.5"
+  },
+  "prettier": {
+    "semi": false
+  }
+}

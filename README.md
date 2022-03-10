@@ -1,6 +1,8 @@
 # rocket-conversion
 For Hasura Demo - An app to display rockets specs from api and convert them to fun units.
 
+[Live Demo]()
+
 ### Demo Details
 I wanted to demo some of the common features of Hasura and came up with overall requirements:
 * Connects to 1x postgres db, at least 1x Rest api, at least 1x Graphql api

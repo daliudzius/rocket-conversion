@@ -8,7 +8,7 @@ const wsLink =
     ? null
     : new GraphQLWsLink(
         createClient({
-          url: "ws://rocket-conversion.hasura.app/v1/graphql",
+          url: "wss://rocket-conversion.hasura.app/v1/graphql",
           webSocketImpl: w3cwebsocket,
           connectionParams: {
             headers: {},

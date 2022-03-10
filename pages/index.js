@@ -40,7 +40,7 @@ const Index = ({ data }) => {
             <UnitMenu data={data} setters={setters} />
             <RocketGrid rockets={data.rockets} states={states} />
           </Stack>
-          <Stack mt={"20%"} ml={6}>
+          <Stack mt={16} ml={6}>
             <Upvotes />
             <Box></Box>
           </Stack>

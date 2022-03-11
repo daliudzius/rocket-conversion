@@ -2,7 +2,7 @@ import Layout from "../components/layout"
 import { client } from "../utils/apollo-client"
 import Head from "next/head"
 import { useState } from "react"
-import { Box, Flex, Stack } from "@chakra-ui/react"
+import { Box, Stack } from "@chakra-ui/react"
 import { GetData } from "../queries/qraphql"
 import { metric } from "../utils/helpers"
 import Upvotes from "../components/upvotes"
@@ -35,16 +35,16 @@ const Index = ({ data }) => {
         <title>Rocket Conversion</title>
       </Head>
       <Layout>
-        <Flex>
+        <Box display={{ sm: "flex" }}>
           <Stack>
             <UnitMenu data={data} setters={setters} />
             <RocketGrid rockets={data.rockets} states={states} />
           </Stack>
-          <Stack mt={16} ml={6}>
+          <Stack mt={16} ml={[0, 6, 6]}>
             <Upvotes />
             <Box></Box>
           </Stack>
-        </Flex>
+        </Box>
       </Layout>
     </>
   )

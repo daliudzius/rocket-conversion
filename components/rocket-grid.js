@@ -6,13 +6,13 @@ const RocketGrid = ({ rockets, states }) => {
     states
 
   return (
-    <SimpleGrid columns={2} spacing={8}>
+    <SimpleGrid columns={[1, 2, 2]} spacing={8}>
       {rockets.map((rocket) => (
         <Box
           rounded={"md"}
           boxShadow={"dark-lg"}
           p={4}
-          w={[44, 44, 72]}
+          w={[72, 48, 72]}
           key={rocket.id}
         >
           <Flex direction={"column"}>

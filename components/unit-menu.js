@@ -1,7 +1,6 @@
 import {
   Box,
   Button,
-  Flex,
   Heading,
   Menu,
   MenuButton,
@@ -18,12 +17,12 @@ const UnitMenu = ({ data, setters }) => {
   const setterFuncs = { setUnitsDomain, ...setters }
 
   return (
-    <Flex>
+    <Box display={{ sm: "flex" }}>
       <Heading fontSize={"2xl"} mb={4} ml={1}>
         SpaceX Rockets
       </Heading>
       <Spacer />
-      <Box>
+      <Box ml={2}>
         <Menu>
           <MenuButton as={Button} rightIcon={<ChevronDownIcon />}>
             {unitsDomain}
@@ -46,7 +45,7 @@ const UnitMenu = ({ data, setters }) => {
           </MenuList>
         </Menu>
       </Box>
-    </Flex>
+    </Box>
   )
 }
 

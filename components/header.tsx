@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <header>
       <Flex
-        w={"md"}
+        w={["23em", "md"]}
         h={20}
         py={2}
         px={3}
